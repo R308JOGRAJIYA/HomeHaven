@@ -8,30 +8,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="nav">
-            <img class="logo-img" src="img/logo.png" alt="Logo">
-        <div class="tags">
-           <nav>
-    <ul>
+    <div class="headers">
+    <div class="logo-header">
+        <img class="logo" src="img/logos.png" alt="Logo">
 
-        <li>
-            <div class="search-box">
-                <input class="search" type="text" placeholder="Search...">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>  
-        </li>
+<div class="search-box">
+    <input class="search" type="text" placeholder="Search...">
+    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+</div>
 
-        <li><a href="index.php">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="contact.php">Contact</a></li>
-
-    </ul>
-</nav>
-        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fa-solid fa-user"></i></a>
+            <a href="#"><i class="fa-solid fa-heart"></i></a>
+            <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
     </div>
-
+    </div>
+    <div class="nav-pages">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact us</a></li>
+       
+        </ul>
+    </div>
+    </div>
     <script src="header.js"></script>
 </body>
 </html>

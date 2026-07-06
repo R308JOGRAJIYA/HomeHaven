@@ -4,49 +4,83 @@
     font-family: 'Poppins', sans-serif;
     
 }
-.nav{
+.logo-header{
+    width: 100%;
+    height: 80px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    opacity: 0.9;
-    justify-content: space-between;
+    gap: 15rem;
 }
-.logo-img{
-    width: 200px;
-    height: 90px;
+.logo{
+    margin-top: 10px;
     object-fit: cover;
-}
-ul,li,a{
-    padding-top:8px;
+    width: 350px;
+    height: auto;
+
     display: flex;
-    text-decoration: none;
-    list-style: none;
-    gap:2rem;
-    color: #4F5F5D;
-     transition: 0.4s;
-    margin-right: 1rem;
-}
-nav ul li a:hover{
-    color: #C9A77A;
-    
+    justify-content: start;
 }
 .search-box{
-    width:280px;
-    height:45px;
-    display:flex;
-    align-items:center;
-    border:1px solid #c9a77a;
-    border-radius:30px;
-    padding:0 15px;
+    position: relative;
+    width: 450px;
 }
 
 .search{
-    flex:1;
-    border:none;
-    outline:none;
-    background:transparent;
+    width: 410px;
+    height: 48px;
+    border: 1px solid #C9A77A;
+    border-radius: 30px;
+    padding: 0 50px 0 20px;
+    font-size: 16px;
+    transition: .3s;
 }
 
-.search-box i{
-    color:#c9a77a;
-    cursor:pointer;
+.search:focus{
+    border-color: #AFC9D4;
+    box-shadow: 0 0 10px rgba(175,201,212,.4);
+}
+
+.search-icon{   
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #C9A77A;
+    font-size: 18px;
+    transition:ease .3s;
+}
+.search-icon:hover{
+    color: #AFC9D4;
+}
+.social-icons{
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+}
+.social-icons a{
+    color:#C79A63;
+    font-size:22px;
+    transition:ease .3s;
+}
+.social-icons a:hover{
+    color:#AFC9D4;
+    transform:translateY(-3px);
+}
+ul,li,a{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: #C79A63;
+    transition :ease .3s;
+}
+ul li a:hover{
+    color: #AFC9D4;
+}
+.headers{
+    background-color: #F5F5F5;
+    height: 120px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
 }

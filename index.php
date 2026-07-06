@@ -19,3 +19,5 @@ include ("header.php");
     <script src="index.js"></script>
 </body>
 </html>
+
+<a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
