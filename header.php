@@ -25,12 +25,12 @@
     </div>
     <div class="nav-pages">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Categories</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact us</a></li>
-       
+            <li><a href="index.php">Home</a></li>
+            <li><a href="shop.php">Shop</a></li>
+            <li><a href="categories.php">Categories</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="contact.php">Contact us</a></li>
+        
         </ul>
     </div>
     </div>

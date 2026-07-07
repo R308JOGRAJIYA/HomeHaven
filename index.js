@@ -1,10 +1,12 @@
-const sliders = document.querySelectorAll('.hero-img');
-let current = 0;
+const slides = document.querySelectorAll(".slide");
+let index = 0;
 
-sliders[current].classList.add("active");
-setInterval(() => {
-    sliders[current].classList.remove("active");
-    current = (current + 1) % sliders.length;
-    sliders[current].classList.add("active");
-}, 4000);
-
+function slider() {
+    slides[index].classList.remove("active");
+    index++;
+    if(index >= slides.length){
+        index = 0;
+    }
+    slides[index].classList.add("active");
+}
+setInterval(slider, 4000);
